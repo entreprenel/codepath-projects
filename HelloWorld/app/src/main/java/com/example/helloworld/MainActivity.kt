@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 //3a. Change color of background
                 Log.i("Enel", "Tapped on button")
 
-                findViewById<ConstraintLayout>(R.id.backgroundView).setBackgroundColor(getResources().getColor(R.color.white))
+                findViewById<ConstraintLayout>(R.id.backgroundView).setBackgroundColor(getResources().getColor(R.color.black))
 
 
             }
